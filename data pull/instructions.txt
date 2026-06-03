@@ -1,0 +1,4 @@
+pip install pymysql pandas pyarrow
+cd <这个文件夹>
+python run_quarters.py
+里面已经有的数据先别拿出去，要不然他会判定没下载过
