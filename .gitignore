@@ -1,0 +1,29 @@
+# ---- 数据与产物 (大文件 / 可重新生成, 不入仓库) ----
+data/
+artifacts/
+cache/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- 密钥 / 环境变量 (绝不上传) ----
+.env
+*.env
+secrets*
+*.key
+
+# ---- 本地备份 ----
+*.bak
+*.original
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
